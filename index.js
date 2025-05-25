@@ -9,7 +9,7 @@ function greet() {
     if (birthday) {
         birthYear = year - age;
     } else {
-        birthYear = currentYear - age - 1;
+        birthYear = year - age - 1;
     }
     alert("You were born in " + birthYear);
 }
